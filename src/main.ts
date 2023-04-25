@@ -1,6 +1,6 @@
 'use strict';
 
-import * as jsPDF from 'jspdf';
+import * as jsPDF from 'jspdf-legacy';
 import {Config, FONT_ROW_RATIO, getDefaults} from './config';
 import {addContentHooks, addPage, nextPage, addTableBorder} from './common';
 import {printRow, printFullRow} from './painter';
